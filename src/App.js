@@ -10,7 +10,7 @@ function App() {
     return (
         <div className="App">
 
-            <Router basename='/chawamihomes'>
+            <Router >
                 
                 <Routes exact>
                     <Route path="/"  element={<Home/>}/>
