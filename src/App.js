@@ -10,9 +10,9 @@ function App() {
     return (
         <div className="App">
 
-            <Router basename="/chawamihomes">
+            <Router >
                 
-                <Routes>
+                <Routes exact>
                     <Route path="/"  element={<Home/>}/>
                     <Route path="/about" element={<About/>}/>
                 </Routes>
