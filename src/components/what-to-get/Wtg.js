@@ -1,4 +1,5 @@
 import { Kitchen, Pool, WorkOutlined } from '@material-ui/icons'
+
 import React from 'react'
 import './wtg.css'
 
@@ -19,7 +20,7 @@ const Wtg = () => {
         </div>
         <div className="card">
           <Kitchen/>
-          <h3>Berbaque</h3>
+          <h3>Pure Luxury</h3>
         </div>
         <div className="card">
           <WorkOutlined/>

@@ -63,7 +63,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .image_container{
         width: 100vw;
         margin: 0 auto;
@@ -73,7 +73,7 @@
 
      .image_container > img{
          margin: 0 auto 10px;
-         width: 50%;
+         width: 60%;
          height: 200px;
          object-fit: cover;
          
