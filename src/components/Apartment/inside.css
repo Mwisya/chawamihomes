@@ -1,0 +1,13 @@
+section{
+    padding: 20px;
+    display: flex;
+    margin:20px 0;
+
+}
+
+@media screen and (max-width:500px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}

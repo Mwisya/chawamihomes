@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar_container{
+    background: linear-gradient(to right, rgb(1, 1, 26), #030388);
+    position: relative;
+    height: 14vh;
+    width: 100vw;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+ /* lOGO */
+
+.logo{
+    color: rgb(255, 255, 255);
+    
+}
+
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.logo span{
+    font-family: monospace;
+    color: rgb(236, 9, 58);
+}
+
+/* NAVIGATION MENU */
+.menu__icon{
+    color: white;
+    cursor: pointer;
+}
+.menu_active{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: 10;
+    width: 220px;
+    height: 50%;
+    border-radius: 10px;
+    background: var(--color-bg);
+    
+    transition: 0.5s ease-in-out;
+    animation: scale-up 0.3s ease-in;
+    overflow: hidden;
+
+}
+
+.close-btn{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+.social-media{
+  padding: 10px 19px;
+  cursor: pointer;
+
+
+}
+.social__media-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social__media-container a{
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social__media-container a:hover{
+    color: chartreuse;
+}
+
+
+
+@keyframes scale-up {
+    0%{
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+
+    }
+}
+@-webkit-keyframes scale-up{
+    0%{
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+
+    }
+}
+@-moz-keyframes scale-up{
+    0%{
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    
+    .navbar_container{
+        padding: 10px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   .navigation__links-container{
+       display: none;
+   }
+
+   .logo{
+       font-size: 12px;
+   }
+
+
+   .menu__icon{
+       font-size: 40px;
+       font-weight: 900;
+       color: white;
+   }
+   
+}
+@media screen and (max-width:1024px) {
+    .navigation__links-container{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+   .navigation__menu-container{
+       display: none;
+   }
+
+}
