@@ -8,6 +8,7 @@ const Prices = () => {
       <h3>Cost per Night</h3>
 
       <div className="price-wrapper">
+        
       <div className='price-info'>
         <p> <KingBedOutlined className='price-icons'/>  Two Bedrooms</p>
         <h5>Price : <small className='price'>Ksh 15,000</small></h5>

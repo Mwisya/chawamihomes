@@ -27,10 +27,7 @@ const Wtg = () => {
           <h3>Modern GYM</h3>
         </div>
       </div>
-
        <p> --------- OCEAN VIEW & BREEZE ---------- </p>
-
-
     </div>
   )
 }

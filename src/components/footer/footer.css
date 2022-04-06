@@ -180,7 +180,7 @@ form >textarea{
     /* .........MEDIA QUERIES....... */
     
 
-@media  screen and (max-width:600px) {
+@media  screen and (max-width:700px) {
     footer{
         height: 100vh;
 
@@ -191,6 +191,7 @@ form >textarea{
     }
     .footer-wrapper{
         width: 100%;
+        height: max-content;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -215,7 +216,6 @@ form >textarea{
         height: 30%;
         width: 50%;
         margin: 0 auto;
-        margin: 5px auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
