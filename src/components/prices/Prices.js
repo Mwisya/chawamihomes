@@ -12,16 +12,16 @@ const Prices = () => {
 
       <ul>
         <li><StarBorderOutlined className='list-icons'/> 3 Bedrooms plus sq</li>
-        <li><StarBorderOutlined className='list-icons'/>5 Beds in total </li>
+        <li><StarBorderOutlined className='list-icons'/>5 Beds in total</li>
         <li><StarBorderOutlined className='list-icons'/> All room en-suite</li>
-        <li><StarBorderOutlined className='list-icons'/>Accomodate upto 6 guests </li>
-        <li><StarBorderOutlined className='list-icons'/>Fully equiped kitchen </li>
-        <li><StarBorderOutlined className='list-icons'/>Smart TV and  free wi-fi </li>
-        <li><StarBorderOutlined className='list-icons'/>Elevator </li>
-        <li><StarBorderOutlined className='list-icons'/>Ocean view </li>
-        <li><StarBorderOutlined className='list-icons'/>Rooftop swimming pool </li>
-        <li><StarBorderOutlined className='list-icons'/>Ample parking space </li>
-        <li><StarBorderOutlined className='list-icons'/>Max security 24/7 </li>
+        <li><StarBorderOutlined className='list-icons'/>Accomodate upto 6 guests</li>
+        <li><StarBorderOutlined className='list-icons'/>Fully equiped kitchen</li>
+        <li><StarBorderOutlined className='list-icons'/>Smart TV and  free wi-fi</li>
+        <li><StarBorderOutlined className='list-icons'/>Elevator</li>
+        <li><StarBorderOutlined className='list-icons'/>Ocean view</li>
+        <li><StarBorderOutlined className='list-icons'/>Rooftop swimming pool</li>
+        <li><StarBorderOutlined className='list-icons'/>Ample parking space</li>
+        <li><StarBorderOutlined className='list-icons'/>Max security 24/7</li>
         <li><StarBorderOutlined className='list-icons'/>Gymnasium </li>
       </ul>
 

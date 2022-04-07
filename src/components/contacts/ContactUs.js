@@ -56,7 +56,7 @@ const ContactUs = () => {
               </article>
             </div>
            
-           <form >
+           <form id='form-inputs' >
           
             <input type="text" autoComplete='false' name="name" placeholder='Entre your name' required/>
 
