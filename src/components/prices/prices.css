@@ -1,35 +1,79 @@
 .prices-container{
     padding: 3rem 0;
     background-color: rgb(6, 6, 114);
-    height: max-content;
+    height: 70vh;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+
 }
-.prices-container h3{
-    padding: 50px 0 30px;
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
-}
-.price-wrapper{
-    width: 75%;
+
+.items{
+    width: 50%;
     margin: 0 auto;
+
     display: flex;
-    gap: 20px;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    padding: 2rem 0;
+
 }
-.price-info{
+
+
+.items >ul{
+
+    flex: 1;
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+
+.items >ul >li{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-icons{
+    margin-right: 10px;
+    color: chartreuse;
+}
+
+
+.price-wrapper{
+    flex: 2;
     padding: 10px;
-    width: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-wrapper h3{
+    text-align: center;
+}
+
+.price-info{
+    width: 50%;
+    padding: 10px;
     height: 150px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
 }
 .price-info h5{
-    width: 100%;
+    width: max-content;
     font-size: 15px;
     padding: 10px 15px;
     border-radius: 10px;
@@ -47,6 +91,7 @@
     margin-right: 10px;
 }
  .price{
+     width: 50%;
     color: chartreuse;
     font-size: 20px;
     padding: 5px;
@@ -63,27 +108,58 @@
     font-weight: 500;
 }
 
-@media screen and (max-width:700px){
-   
-.prices-container h3{
-    font-size: 16px;
+
+@media screen and (max-width:400px){
+
+    .items >ul{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+    };
+    
+    .items ul li{
+        font-size: 13px;
+        width: 100%;
+    }
 }
-    .price{
+@media screen and (max-width:700px){
+
+    .prices-container{
+        height: 100%;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items >ul{
+        width: 100%;
+        
+    };
+    
+    .items ul li{
         font-size: 15px;
+        width: max-content;
     }
-    .price-wrapper{
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+    
     .price-info{
-        padding: 5px;
-        width: 70%;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
+        width: 200px;
+        height: max-content;
+      
     }
+    .price{
+        font-size: 13px;
+    }
+    
+
+    .price-wrapper{
+        margin-top: 1rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+   
 }

@@ -5,9 +5,9 @@
     font-family: var(--font-family);
 }
 .details__container{
-    padding: 10px;
+    padding: 1rem;
     width: 100vw;
-    height: 70vh;
+    height: 35rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,8 +17,9 @@
 }
 .info__container{
     width: 40%;
-    height: 50vh;
+    height: max-content;
     margin: 0 auto ;
+    padding: 1rem;
     text-align: center; 
 }
 .info__container > h4{
@@ -57,6 +58,7 @@
 .contacts{
     height: 100%;
     display: flex;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;

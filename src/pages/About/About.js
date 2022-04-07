@@ -7,6 +7,7 @@ import Sponsors from '../../components/sponsors/Sponsors'
 import Details from '../../components/Details/Details'
 import Prices from '../../components/prices/Prices'
 import Wtg from '../../components/what-to-get/Wtg'
+import ContactUs from '../../components/contacts/ContactUs'
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
         <Wtg/>
         <Prices/>
         <Sponsors/>
+        <ContactUs/>
         <Footer/>
     </div>
   )

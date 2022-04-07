@@ -8,6 +8,7 @@ import Sponsors from '../../components/sponsors/Sponsors'
 import Gallery from '../../components/gallery/Gallery'
 import Wtg from '../../components/what-to-get/Wtg'
 import Prices from '../../components/prices/Prices'
+import ContactUs from '../../components/contacts/ContactUs'
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <Wtg/>
         <Prices/>
         <Sponsors/>
+        <ContactUs/>
         <Footer/>
     </div>
   )
