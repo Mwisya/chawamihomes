@@ -1,6 +1,6 @@
  .notification{
      width: 100vw;
-    height: 50px;
+    padding: 0.65rem;
     text-align: center;
     color: rgb(6, 202, 236);
     background-color: black;
@@ -14,7 +14,7 @@
 }
 .notification > h4{
     font-weight: 900;
-    font-size: 22px;
+    font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .discount{
@@ -24,11 +24,23 @@
 @media screen and (max-width:700px) {
     .notification__wrapper{
         text-align: center;
-        padding: 10px;
         width: 80%;
         margin: 0 auto;
     }
     .notification__wrapper > h4{
+        font-size: 14px;
+    }
+      .discount{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .notification__wrapper > h4{
+        font-size: 12px;
+    }
+    .discount{
         font-size: 13px;
     }
+
 }

@@ -17,7 +17,7 @@ const Details = () => {
         <div className="contact__details-container">
           <div className="contacts">
             <LocationOn className='contact__icon'/>
-            <h4>Location:  Nyali</h4>
+            <h4 >Location:  Nyali</h4>
           </div>
           <div className="contacts">
             <Call className='contact__icon'/>

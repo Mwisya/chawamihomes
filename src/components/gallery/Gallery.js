@@ -5,9 +5,9 @@ import {sliderData} from '../../data'
 
 const Gallery = () => {
   return (
-    <div >
+    <div className='gallery-container'>
          <h3 className='gallery-heading'>Gallery</h3>
-    <div className="gallery-container wrapper">
+    <div className="gallery-wrapper">
 
         {
             sliderData.map((item)=> (

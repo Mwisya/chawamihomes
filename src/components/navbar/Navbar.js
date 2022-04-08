@@ -36,7 +36,7 @@ const Navbar = ({onClick}) => {
                 toggle &&  (
                   <div className='menu_active'>
                       <Menu />
-                     <div className="social-media">
+                     <div className="social_media-nav">
                         <div className="social__media-container">
                             <a href="https://api.whatsapp.com/send?phone=+254722799775" target='_blank' rel="noreferrer"> <WhatsApp/> WhatsApp </a>
                             

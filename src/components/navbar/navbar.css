@@ -6,9 +6,8 @@
 .navbar_container{
     background: linear-gradient(to right, rgb(1, 1, 26), #030388);
     position: relative;
-    height: 14vh;
     width: 100vw;
-    padding: 10px;
+    padding: 1rem 2rem;
 
     display: flex;
     align-items: center;
@@ -25,7 +24,7 @@
 
 .logo h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 .logo span{
     font-family: monospace;
@@ -56,12 +55,12 @@
 .close-btn{
     color: red;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;font-weight: 600;
 
 }
 
 
-.social-media{
+.social_media-nav{
   padding: 10px 19px;
   cursor: pointer;
 
@@ -73,15 +72,16 @@
     justify-content: flex-start;
 }
 
-.social__media-container a{
+.social__media-container > a{
     margin: 10px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    transition: 400ms ease-out;
 }
-.social__media-container a:hover{
+.social__media-container >a:hover{
     color: chartreuse;
 }
 
@@ -129,7 +129,7 @@
 @media screen and (max-width:700px){
     
     .navbar_container{
-        padding: 10px 50px;
+        padding: 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -140,7 +140,7 @@
    }
 
    .logo{
-       font-size: 12px;
+       font-size: 10px;
    }
 
 

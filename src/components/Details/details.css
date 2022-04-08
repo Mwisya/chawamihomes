@@ -7,7 +7,7 @@
 .details__container{
     padding: 1rem;
     width: 100vw;
-    height: 35rem;
+    min-height: 35rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
 
 }
 .info__container{
-    width: 40%;
+    width: 60%;
     height: max-content;
     margin: 0 auto ;
     padding: 1rem;
@@ -24,16 +24,17 @@
 }
 .info__container > h4{
     color: crimson;
-    padding: 25px;
+    padding: 20px;
 }
 .line__color{
     text-align: center;
     padding: 0 10px;
     color: white;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 17px;
+    font-weight: 600;
 }
 .info__container > h2{
+    font-size: 15px;
     color: chartreuse;
     padding: 10px;
 }
@@ -42,7 +43,7 @@
     color: white;
     margin: 0 auto;
     padding: 20px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
 }
 
@@ -58,7 +59,7 @@
 .contacts{
     height: 100%;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -70,6 +71,7 @@
 }
 .contacts > h4{
     color: crimson;
+    font-size: 17px;
 }
 .contacts h4 a{
     color: crimson;
@@ -78,28 +80,68 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:700px) {
+@media screen  and (max-width:1024px){
 
-.details__container{
-    height: 70vh;
-    padding: 10px 0;
-}
-.info__container{
-    width: 94%;
-    margin: 0 auto;
-}
-    .info__container > h2{
-        font-size: 17px;
+    .info__container{
+        width: 80%;
+        margin: 0 auto;
     }
-    .info__container > p{
-        font-size: 16px;
-        margin: 10px;
-        text-align: justify;
-    }
-    
-    
-    .contact__details-container{
-        padding: 10px;
+
+   
+
+}
+
+@media screen  and (max-width:700px){
+
+
+    .details__container{
         height: max-content;
     }
+    .info__container{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .info__container > h2{
+        font-size: 15px;
+        padding: 4px;
+    }
+    .info__container > h4{
+        font-size: 15px;
+    }
+    .info__container p{
+        font-size: 15px;
+        line-height: normal;
+    }
 }
+
+@media screen  and (max-width:400px){
+    .info__container{
+        width: 100%;
+        padding: 0;
+        
+    }
+
+
+
+    .info__container p{
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .contact__details-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacts{
+        padding: 5px;
+    }
+
+    .contacts h4{
+        font-size: 13px;
+    }
+
+}
+

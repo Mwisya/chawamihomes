@@ -1,33 +1,31 @@
 import { Call, Email, WhatsApp } from '@material-ui/icons'
 import React from 'react'
-// import { useRef } from 'react'
+import { useRef } from 'react'
 
 import './contacts.css'
 
 //  EMAIL
 
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
 
-  // const form = useRef();
+  const form = useRef();
 
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs.sendForm('service_s1quspb', 'template_qvm9lxn', form.current, 'WvAo25w9UmFc7HYWn')
+    emailjs.sendForm('service_s1quspb', 'template_qvm9lxn', form.current, 'WvAo25w9UmFc7HYWn')
   
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
 
-  //     e.target.reset()
-  // };
-
-
+      e.target.reset()
+  };
 
   return (
     <main>
@@ -45,18 +43,17 @@ const ContactUs = () => {
               <article className="contact_option">
                 <Email/>
                 <h4>Email</h4>
-                <h5 className='contact_option-link'>info@chawamisuppliesltd.com</h5>
                 <a href="mailto:info@chawamisuppliesltd.com">Send a message</a>
               </article>
               <article  className="contact_option">
                 <WhatsApp/>
                 <h4>WhatsApp</h4>
                 <h5>+254722799775</h5>
-                <a href="https://api.whatsapp.com/send?phone=+25422799775">send a mesaage</a>
+                <a href="https://api.whatsapp.com/send?phone=+254722799775">send a mesaage</a>
               </article>
             </div>
            
-           <form id='form-inputs' >
+           <form id='form-inputs' ref={form} onSubmit = {sendEmail} >
           
             <input type="text" autoComplete='false' name="name" placeholder='Entre your name' required/>
 

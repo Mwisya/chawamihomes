@@ -6,7 +6,7 @@ import './wtg.css'
 const Wtg = () => {
   return (
     <div className='wtg__container'>
-      <h5>Come and Enjoy</h5>
+      <h6>Come and Enjoy</h6>
       <h2>Savour Rooftop;</h2>
 
       <div className="cards">
@@ -27,7 +27,6 @@ const Wtg = () => {
           <h3>Modern GYM</h3>
         </div>
       </div>
-       <p> --------- OCEAN VIEW & BREEZE ---------- </p>
     </div>
   )
 }
