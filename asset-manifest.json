@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chawamihomes/static/css/main.416fd555.css",
-    "main.js": "/chawamihomes/static/js/main.6f0f32ee.js",
+    "main.css": "/chawamihomes/static/css/main.b30f5631.css",
+    "main.js": "/chawamihomes/static/js/main.2f7e0286.js",
     "static/js/787.e1eed0c7.chunk.js": "/chawamihomes/static/js/787.e1eed0c7.chunk.js",
     "static/media/Intro.jpg": "/chawamihomes/static/media/Intro.ff08eeec7e6671d2a971.jpg",
     "static/media/Dinning.jpg": "/chawamihomes/static/media/Dinning.36cc2e52c25b564cef3d.jpg",
@@ -16,12 +16,12 @@
     "static/media/Sitting.jpg": "/chawamihomes/static/media/Sitting.3c22a15731250b532932.jpg",
     "static/media/Flower.jpg": "/chawamihomes/static/media/Flower.e921c9af7aa473e3bc93.jpg",
     "index.html": "/chawamihomes/index.html",
-    "main.416fd555.css.map": "/chawamihomes/static/css/main.416fd555.css.map",
-    "main.6f0f32ee.js.map": "/chawamihomes/static/js/main.6f0f32ee.js.map",
+    "main.b30f5631.css.map": "/chawamihomes/static/css/main.b30f5631.css.map",
+    "main.2f7e0286.js.map": "/chawamihomes/static/js/main.2f7e0286.js.map",
     "787.e1eed0c7.chunk.js.map": "/chawamihomes/static/js/787.e1eed0c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.416fd555.css",
-    "static/js/main.6f0f32ee.js"
+    "static/css/main.b30f5631.css",
+    "static/js/main.2f7e0286.js"
   ]
 }
